@@ -4,7 +4,6 @@ var LED = new Gpio(4, 'out');
 
 module.exports = {
 
-
 blinkLED : function() {
 	if(LED.readSync() === 0) {
 		LED.writeSync(1);

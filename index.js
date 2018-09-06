@@ -24,6 +24,6 @@ app.get("/blink", function(req, res) {
 
 app.get("/stop", function(req,res){
 	Blinker.Stop()
-	res.send("the Blinking should stop")
+	res.send("the Blinking should stop---")
 })
 app.listen(3000, '0.0.0.0')
