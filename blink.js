@@ -1,6 +1,6 @@
 var Gpio = require('onoff').Gpio;
 var LED = new Gpio(4, 'out');
-// var blinkIntnerval = setInterval(blinkLED, 250);
+// var blinkInterval = setInterval(blinkLED, 250);
 
 module.exports = {
 
